@@ -1,0 +1,59 @@
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+ul.pre-navbar-links , ul.pre-navbar-redes{
+list-style: none;
+margin-bottom: 0.5rem;
+}
+
+ul.pre-navbar-links li{
+    width: 100px;
+
+}
+
+ul.pre-navbar-redes{
+    width: 120px;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+ul.pre-navbar-links li a , ul.pre-navbar-redes li a{
+    color: #565656;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 992px) { 
+    .pre-nav-container{
+        display: none !important ;
+    }
+
+}
+
+nav.navbar{
+    background-color: #f9e9da !important;
+    letter-spacing: 2px;
+}
+
+li.nav-item{
+    padding: 0 15px;
+    font-weight: 600;
+}
+
+a.nav-link{
+    color: #5496CE;
+}
+
+.btn-donar{
+    font-size: 1.5rem;
+color: white;
+border: 2px solid #5496CE;
+background-color: #5496CE;
+}
+
+.btn-donar:hover{
+    color: #5496CE;
+    background-color: white;
+    border: 2px solid #5496CE;
+}
