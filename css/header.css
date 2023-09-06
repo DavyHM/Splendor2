@@ -26,8 +26,29 @@ ul.pre-navbar-links li a , ul.pre-navbar-redes li a{
 
 @media screen and (max-width: 992px) { 
     .pre-nav-container{
-        display: none !important ;
+        flex-direction: column;
+        align-items: center;
     }
+
+    ul.navbar-nav{
+        align-items: center ;
+    }
+
+    .i-home{
+        display: none;
+    }
+
+    ul.pre-navbar-links{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0;
+        gap: 10px;
+    }
+
+    .btn-donar-cont{
+text-align: center;
+    }
+
 
 }
 
